@@ -1,7 +1,7 @@
 ﻿using System;
-using TradeCapture.Abstractions.Events;
+using TradeCapture.Foundation.Notifications;
 
-namespace TradeCapture.Abstractions.Orders
+namespace TradeCapture.Foundation.Orders
 {
     public interface IOrder : IPlaced, IErrored
     {

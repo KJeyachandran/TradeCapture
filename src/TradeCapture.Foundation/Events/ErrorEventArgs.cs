@@ -1,4 +1,4 @@
-﻿namespace TradeCapture.Abstractions.Events
+﻿namespace TradeCapture.Foundation.Events
 {
     public class ErrorEventArgs : EventArgs
     {

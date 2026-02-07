@@ -4,10 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TradeCapture.Abstractions.Events
+namespace TradeCapture.Foundation.Events
 {
-    public delegate void PlacedEventHandler(PlacedEventArgs e);
-
     public class PlacedEventArgs
     {
         public PlacedEventArgs(string code, decimal price)

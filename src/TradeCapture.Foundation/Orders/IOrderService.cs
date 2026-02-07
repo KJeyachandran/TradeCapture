@@ -1,4 +1,4 @@
-﻿namespace TradeCapture.Abstractions.Orders
+﻿namespace TradeCapture.Foundation.Orders
 {
     public interface IOrderService
     {

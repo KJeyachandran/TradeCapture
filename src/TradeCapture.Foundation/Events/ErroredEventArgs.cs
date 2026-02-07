@@ -4,10 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TradeCapture.Abstractions.Events
+namespace TradeCapture.Foundation.Events
 {
-    public delegate void ErroredEventHandler(ErroredEventArgs e);
-
     public class ErroredEventArgs : ErrorEventArgs
     {
         public ErroredEventArgs(string code, decimal price, Exception ex) : base(ex)
