@@ -9,9 +9,11 @@
 - Stop after an error
 
 ### Projects
-- TradeCapture.Foundation - Foundataion classes (Events, Notifications, Interfaces)
-- TradeCapture.Core       - Order implementation
-- TradeCapture.Tests      - Unit tests  
+| Project                    | Features                                              |
+| -------------------------- | ----------------------------------------------------- |
+| TradeCapture.Foundation    |Foundataion classes (Events, Notifications, Interfaces)|
+| TradeCapture.Core          |Order implementation                                   |
+| TradeCapture.Tests         |Unit tests                                             |
 
 ### Build
 - dotnet build
