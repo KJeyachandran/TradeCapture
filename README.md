@@ -1,5 +1,4 @@
 # TradeCapture (TP ICAP) Demo/Test solution
----
 
 ### Requirements 
 - Single buy
