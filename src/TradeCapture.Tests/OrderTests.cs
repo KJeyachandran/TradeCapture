@@ -1,7 +1,4 @@
 using Moq;
-using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 using TradeCapture.Foundation.Events;
 using TradeCapture.Foundation.Orders;
 using Xunit;
