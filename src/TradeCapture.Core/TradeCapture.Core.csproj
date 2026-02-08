@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TradeCapture.Abstractions\TradeCapture.Abstractions.csproj" />
+    <ProjectReference Include="..\TradeCapture.Foundation\TradeCapture.Foundation.csproj" />
   </ItemGroup>
 
 </Project>
