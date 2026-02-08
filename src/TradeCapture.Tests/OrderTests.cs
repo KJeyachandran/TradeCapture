@@ -1,4 +1,5 @@
 using Moq;
+using TradeCapture.Core.Orders;
 using TradeCapture.Foundation.Events;
 using TradeCapture.Foundation.Orders;
 using Xunit;

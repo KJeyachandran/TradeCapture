@@ -2,6 +2,8 @@
 using TradeCapture.Foundation.Notifications;
 using TradeCapture.Foundation.Orders;
 
+namespace TradeCapture.Core.Orders;
+
 public sealed class Order : IOrder
 {
     private const int DEFAULT_QUANTITY = 100;       // set a default quantity

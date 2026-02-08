@@ -1,16 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using TradeCapture.Foundation.Events;
+﻿using TradeCapture.Foundation.Events;
 
-namespace TradeCapture.Foundation.Notifications
+namespace TradeCapture.Foundation.Notifications;
+
+public delegate void PlacedEventHandler(PlacedEventArgs e);
+
+public interface IPlaced
 {
-    public delegate void PlacedEventHandler(PlacedEventArgs e);
-
-    public interface IPlaced
-    {
-        event PlacedEventHandler Placed;
-    }
+    event PlacedEventHandler Placed;
 }

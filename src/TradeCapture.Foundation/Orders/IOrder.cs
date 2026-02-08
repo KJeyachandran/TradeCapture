@@ -1,10 +1,8 @@
-﻿using System;
-using TradeCapture.Foundation.Notifications;
+﻿using TradeCapture.Foundation.Notifications;
 
-namespace TradeCapture.Foundation.Orders
+namespace TradeCapture.Foundation.Orders;
+
+public interface IOrder : IPlaced, IErrored
 {
-    public interface IOrder : IPlaced, IErrored
-    {
-        void RespondToTick(string code, decimal price);
-    }
+    void RespondToTick(string code, decimal price);
 }

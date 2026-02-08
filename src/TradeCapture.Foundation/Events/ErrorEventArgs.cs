@@ -1,12 +1,11 @@
-﻿namespace TradeCapture.Foundation.Events
-{
-    public class ErrorEventArgs : EventArgs
-    {
-        public ErrorEventArgs(Exception exception)
-        {
-            Exception = exception;
-        }
+﻿namespace TradeCapture.Foundation.Events;
 
-        public Exception Exception { get; }
+public class ErrorEventArgs : EventArgs
+{
+    public ErrorEventArgs(Exception exception)
+    {
+        Exception = exception;
     }
+
+    public Exception Exception { get; }
 }
